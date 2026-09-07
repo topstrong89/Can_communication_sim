@@ -1,0 +1,16 @@
+../Core/Src/main.c:112:1:__io_putchar	16	static
+../Core/Src/main.c:122:6:mPrint	24	static
+../Core/Src/main.c:154:6:Print_AIRBAG_TX	40	static
+../Core/Src/main.c:161:6:Send_Data_To_MAIN	24	static
+../Core/Src/main.c:198:13:MEMS_WriteReg	24	static
+../Core/Src/main.c:208:9:MEMS_ReadReg	24	static
+../Core/Src/main.c:220:13:LIS3DSH_Init	8	static
+../Core/Src/main.c:227:13:LIS3DSH_ReadAccel	24	static
+../Core/Src/main.c:245:13:CAN_Filter_Config	48	static
+../Core/Src/main.c:264:5:main	16	static
+../Core/Src/main.c:437:6:SystemClock_Config	88	static
+../Core/Src/main.c:484:13:MX_CAN1_Init	8	static
+../Core/Src/main.c:521:13:MX_SPI1_Init	8	static
+../Core/Src/main.c:559:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:592:13:MX_GPIO_Init	56	static
+../Core/Src/main.c:665:6:Error_Handler	4	static,ignoring_inline_asm
