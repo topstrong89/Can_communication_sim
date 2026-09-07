@@ -29,7 +29,7 @@ In this system, I took charge of designing the CAN communication architecture an
 *   **Node Airbag:** Continuously processes sensor data and issues emergency deployment signals upon collision detection.
 *   **Node ABS:** Measures wheel speed via a motor encoder using a hardware Timer, and executes emergency braking commands.
 *   **Node Main:** Acts as the central data collection point to monitor driver operations and coordinate the network's emergency data streams.
-
+![System Block Diagram](Block_diagram_CAN_ECU.drawio.jpg)
 ## How to Build and Flash
 1. Open the respective projects (`/Airbag_ECU`, `/Main_ECU`, `/ABS_ECU`) using STM32CubeIDE.
 2. Compile and flash the firmware to each STM32 board.
